@@ -7,7 +7,8 @@
         android:src="@drawable/inicio"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:id="@+id/" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
@@ -17,14 +18,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp"
         android:layout_alignParentStart="false" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hola"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="50dp" />
 
 </RelativeLayout>
